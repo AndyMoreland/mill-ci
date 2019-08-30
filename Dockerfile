@@ -15,7 +15,7 @@ ENV MILL_VERSION 0.5.0
 WORKDIR /root
 
 # Scala expects this file
-RUN touch /usr/lib/jvm/java-8-openjdk-amd64/release
+RUN touch /usr/lib/jvm/java-11-openjdk-amd64/release
 
 # Install Scala
 ## Piping curl directly in tar
